@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6b0044/T/v1
+canonical_location: https://kanripo.org/bkk/KR6b0044/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 異出菩薩本起經
+  identifiers:
+    krp: KR6b0044
+    cbeta: T03n0188
+    cbeta_old_id: T03n0188
+    authorityid: CA0002422
+    json_key: T0188
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T03/T03n0188.xml
+    old_id: T03n0188
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0044_000-T.yaml, hash: 'sha256:789508bcb1fc2df324420849b1a56232bc21eeb1c57cf9c064dc48718b56f038'}
+  - {seq: 1, filename: KR6b0044_001-T.yaml, hash: 'sha256:9e5043a1724f054fec2a02c9eede840022e133419cb57512af61c049e07b6be7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6b0044_000-T.markers.yaml, hash: 'sha256:b3704070b9049d990d255a1a46caa02a3f548810d994ad9eca1e445ad2a15966'}
+  - {seq: 1, role: markers, filename: assets/KR6b0044_001-T.markers.yaml, hash: 'sha256:9e711447cf124c51695ed0d9dd37fa14e817bef115199084657de3debb6cc22f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0044_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4657
+  label: 異出菩薩本起經一卷
+  type: juan
+  level: 1
+hash: sha256:8ad195677ff3fbbebe7574fd48a9cbcbcc5d12afef2f7ee404dc6f1162817571

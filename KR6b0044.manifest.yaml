@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6b0044/v1
+canonical_location: https://kanripo.org/bkk/KR6b0044/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 異出菩薩本起經
+  identifiers:
+    alt_id:
+    - T03n0188
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T03/T03n0188.xml
+    old_id: T03n0188
+  edition:
+    short: bkk
+editions:
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6b0044_000.yaml, hash: 'sha256:789508bcb1fc2df324420849b1a56232bc21eeb1c57cf9c064dc48718b56f038'}
+  - {seq: 1, filename: KR6b0044_001.yaml, hash: 'sha256:9f002082b3774f3bec908c0486be06606a7cb45752cd3165fdaa9553848b951f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6b0044_001.markers.yaml, hash: 'sha256:30bc5d0c0be6f1c2001bbbbd8fef4c54727599751b48f1175949225aab876a14'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6b0044_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4657
+  label: 異出菩薩本起經一卷
+  type: juan
+  level: 1
+hash: sha256:2e19286d7b6eec049657a37214adcbb733b0a2786632297a7212e402e2641d25
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6b0044/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 異出菩薩本起經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T03/T03n0188.xml
+    old_id: T03n0188
+hash: sha256:789508bcb1fc2df324420849b1a56232bc21eeb1c57cf9c064dc48718b56f038
