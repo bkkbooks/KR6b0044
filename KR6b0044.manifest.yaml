@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0044_000.yaml, hash: 'sha256:789508bcb1fc2df324420849b1a56232bc21eeb1c57cf9c064dc48718b56f038'}
-  - {seq: 1, filename: KR6b0044_001.yaml, hash: 'sha256:9f002082b3774f3bec908c0486be06606a7cb45752cd3165fdaa9553848b951f'}
+  - {seq: 1, filename: KR6b0044_001.yaml, hash: 'sha256:9e5043a1724f054fec2a02c9eede840022e133419cb57512af61c049e07b6be7'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6b0044_001.markers.yaml, hash: 'sha256:30bc5d0c0be6f1c2001bbbbd8fef4c54727599751b48f1175949225aab876a14'}
+  - {seq: 0, role: markers, filename: assets/KR6b0044_000.markers.yaml, hash: 'sha256:4501fc6421cf7f0cf9f33c8033f451707be45ba3a503268113a412692086cea9'}
+  - {seq: 1, role: markers, filename: assets/KR6b0044_001.markers.yaml, hash: 'sha256:9a11329752d37ddc0ab3ce0b3c35ffd360b1f294d2b5a142400529c9fe32c8ce'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 異出菩薩本起經一卷
   type: juan
   level: 1
-hash: sha256:2e19286d7b6eec049657a37214adcbb733b0a2786632297a7212e402e2641d25
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:1fd897379c3a8703cc3b9f3a48b77cdc4ae838dae72d96a6ccb87b883b5fb676
