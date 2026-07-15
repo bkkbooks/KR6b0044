@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6b0044/v1
 canonical_location: https://kanripo.org/bkk/KR6b0044/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 異出菩薩本起經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6b0044_000.yaml, hash: 'sha256:789508bcb1fc2df324420849b1a56232bc21eeb1c57cf9c064dc48718b56f038'}
-  - {seq: 1, filename: KR6b0044_001.yaml, hash: 'sha256:9e5043a1724f054fec2a02c9eede840022e133419cb57512af61c049e07b6be7'}
+  - {seq: 1, filename: KR6b0044_001.yaml, hash: 'sha256:259bdbc2ac7c591498a9f9c2650caa39761b557b4af4e44fe172e9252ef30c17'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6b0044_000.markers.yaml, hash: 'sha256:4501fc6421cf7f0cf9f33c8033f451707be45ba3a503268113a412692086cea9'}
-  - {seq: 1, role: markers, filename: assets/KR6b0044_001.markers.yaml, hash: 'sha256:9a11329752d37ddc0ab3ce0b3c35ffd360b1f294d2b5a142400529c9fe32c8ce'}
+  - {seq: 1, role: markers, filename: assets/KR6b0044_001.markers.yaml, hash: 'sha256:93bf38702354e68c315505f35ce705fe2939cef5829b6fb4572034babb91c37c'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 異出菩薩本起經一卷
   type: juan
   level: 1
-hash: sha256:1fd897379c3a8703cc3b9f3a48b77cdc4ae838dae72d96a6ccb87b883b5fb676
+hash: sha256:105e61e3e6529d8ffa701e02d5e08fdd117dd6f42bf2b54683e5626482f4f678
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
